@@ -1,0 +1,4 @@
+Записка для  @ProTalking_Bot
+Тег в телеграмме - @ProTalking_Bot
+ссылка на презентацию - https://prezi.com/p/7ognthoyjfua/?present=1
+ссылка на GIT hub - https://github.com/SemaPLAY/Pro_Talking_bot
