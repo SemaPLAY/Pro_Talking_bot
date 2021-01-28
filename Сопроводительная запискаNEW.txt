@@ -1,0 +1,3 @@
+Записка для  @ProTalking_Bot
+Тег в телеграмме - @ProTalking_Bot
+ссылка на GIT hub - https://github.com/SemaPLAY/Pro_Talking_bot

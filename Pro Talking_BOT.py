@@ -29,15 +29,17 @@ def help(message):
     global a
     a = a + 1
     bot.send_message(message.chat.id, 'Привет данный '
-                     'бот разработан для скрашивания время '
-                     'препровождения во время карантина.')
+                     'бот был разработан для скрашивания время '
+                     'препровождения во время карантина,'
+                     'но теперь он используеться как личный'
+                     'проект Фомченкова Семёна')
     bot.send_message(message.chat.id, 'Что-бы начать '
                      'пользоваться ботом просто напишите ему. '
                      'Так-же есть функция орла и решки(/OaR) '
                      'для решения споров с друзьями)))'
                      '(/OaR10 кинет монету 10 раз)')
     bot.send_message(message.chat.id, 'Создан Фомченковым '
-                     'Семёном как проекта Яндекс лицея.')
+                     'Семёном как личный проект.')
 
 
 @bot.message_handler(commands=['OaR'])
@@ -63,10 +65,10 @@ def random10(message):
 
 @bot.message_handler(commands=['stats'])
 def stats(message):
-	global a
+    global a
     a = a + 1
-	bot.send_message(message.chat.id, 'Количество запросов боту')
-	bot.send_message(message.chat.id, a)
+    bot.send_message(message.chat.id, 'Количество запросов боту')
+    bot.send_message(message.chat.id, a)
 
 
 @bot.message_handler(content_types=['text'])
